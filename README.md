@@ -1,4 +1,4 @@
-##1. Título do Projeto  
+## 1. Título do Projeto  
 Projeto de aprendizado para codificação em HTML, apresentando um passo a passo ordenado e organizado de praticas e conceitos.
 ##2. Descrição  
 Esse projeto tem como objetivo criar uma rota de aprendizado para as funções, codigos e estruturas para programação web.
