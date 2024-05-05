@@ -4,7 +4,11 @@ Projeto de aprendizado para codificação em HTML, apresentando um passo a passo
 Esse projeto tem como objetivo criar uma rota de aprendizado para as funções, codigos e estruturas para programação web.
 
 ## 3. Tecnologias Utilizadas
-As tecnologias envolvidas nesse estudo são Linguagens de Programação, Logica de programação, HTML, CSS, Script e React.
+As tecnologias envolvidas nesse estudo são:
+- HTML
+- CSS
+- Script
+- React.
 
 ## 4. Instalação e Configuração
 VS + Vi + VS Code ES7+ React/Redux/React-Native/JS snippets
