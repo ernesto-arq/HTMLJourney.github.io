@@ -10,8 +10,8 @@ As tecnologias envolvidas nesse estudo são Linguagens de Programação, Logica 
 VS + Vi + VS Code ES7+ React/Redux/React-Native/JS snippets
 
 ## 5. Licença
-Este projeto está licenciado sob a licença MIT - consulte o arquivo LICENSE para obter detalhes.
-[Licença MIT](https://opensource.org/license/mit)
+Este projeto está licenciado sob a licença MIT - consulte o arquivo LICENSE para obter detalhes
+[Licença MIT](https://opensource.org/license/mit).
 
 
 ## 6. Contato
