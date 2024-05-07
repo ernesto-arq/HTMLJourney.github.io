@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1 style="text-align: center;">Imagens em HTML</h1>
+        <h4>A seguir, apresentamos como criar referências a imagens em HTML. Para inserir imagens, a tag utilizada é &lt;img&gt;. Essa tag é usada para inserir uma imagem em uma página web. Ela possui os seguintes atributos: 'src', 'alt' e 'title'.</h4>
+        Descrição dos Atributos:
+        <ul>
+            <li>src: Especifica o caminho para a imagem.</li>
+            <li>alt: Fornece um texto alternativo para a imagem, que será exibido se a imagem não puder ser carregada. Isso também é importante para acessibilidade.</li>
+            <li>title: Oferece uma descrição da imagem quando o usuário passa o mouse sobre ela.</li>
+
+            <br> &lt;img  src="../imgs/dog.jpg" alt="Descrição Alternativa" title="Golden Retriever" &gt;
+            <br><img src="../imgs/dog.jpg" alt="Descrição Alternativa" title="Golden Retriever">
+        </ul>
+
+        Imagem com associação de um link:<br>
+        &lt;a href="../../index.html"&gt;
+        <br> &nbsp;&nbsp;&nbsp; &lt;img src="../imgs/dog.jpg" alt="Descrição Alternativa" title="Golden Retriever" &gt;
+       <br>&lt;/a&gt;<br>
+        
+        <br><a href="../../index.html">
+            <img src="../imgs/dog.jpg" alt="Descrição Alternativa" title="Golden Retriever">
+        </a>
+
+        <br><br>Imagem com estilo em CSS<br>
+        &lt;style&gt;
+           &nbsp;.imagem-estilizada{<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;width:200px;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;height:auto;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;border:2px solid #000;<br>
+           }<br>
+        &lt;/style&gt;
+        <br>&lt;img src="../imgs/dog.jpg" alt="Descrição Alternativa" class="imagem-estilizada"&gt;
+
+        <style>
+            .imagem-estilizada{
+                width:200px;
+                height:auto;
+                border:2px solid #000;
+            }
+        </style>
+        <br><img src="../imgs/dog.jpg" alt="Descrição Alternativa" class="imagem-estilizada">
+
+    </div>    
+</body>
+</html>
