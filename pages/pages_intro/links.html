@@ -3,20 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geração de Links</title>
+    <title>Geração de Links em HTML</title>
 </head>
 <body>
     <div>
         <a id="inicio"></a>
-        <h1 style="text-align: center;">Geração de Links</h1>
-        <h4>Em HTML, a geração de links é realizada pela tag &lt;a href="url"&gt;texto do link&lt;/a&gt;. Por exemplo:</h4><br>
+        <h1 style="text-align: center;">Geração de Links em HTML</h1>
+        <h4>A tag <code>&lt;a&gt;</code> é utilizada para criar links em HTML. O atributo <code>href</code> especifica o destino do link. Por exemplo:</h4>
         <a href="paragrafos.html">Este é um link para a seção de parágrafos!</a>
 
-        <h4>A seguir, apresentamos como fazer uma referência a uma seção específica. Por exemplo, utilizando um link de salto, é possível navegar entre seções, como nas regiões da página a seguir:</h4>
-        &lt;a id="section1"&gt;>Este é um exemplo de como criar um link de salto, ou seja Go To&lt;/a&gt; <br>
-        O link de salto irá redirecionar para &lt;a href="#section1"&gt;&lt;/a&gt;
+        <h4>Links de salto interno permitem a navegação rápida entre seções de uma mesma página. Abaixo está um exemplo de como criar um link de salto:</h4>
+        <p>Defina um ponto de destino na página usando <code>&lt;a id="section1"&gt;</code>. Este exemplo cria um ponto de ancoragem:</p>
+
+
+        <p>Para criar um link que salta para essa seção, use o atributo <code>href</code> com um valor de hash seguido pelo id da seção:</p>
         <a href="#section1">Ir para a Seção 1</a>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br;<h2 id="section1">Esta é a Seção 1</h2>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <h2 id="section1">Esta é a Seção 1</h2>
+        <a id="section1">Seção 1</a>
         <a href="#inicio">Voltar ao início</a>
     </div>
 </body>

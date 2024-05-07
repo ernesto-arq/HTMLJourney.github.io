@@ -3,52 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundamentacao para Tags</title>
+    <title>Guia de Tags HTML</title>
 </head>
 <body>
     <div>
-        <h1 style="text-align: center;">Tags e Corpus</h1>
-        <h4>Nesta sessão, vamos explorar o uso, o significado e a utilização de uma Tag e Corpus, assim como os seus respectivos conceitos e ideias. A anatomia das Tags de marcação, ou elemento HTML, inclui: <br>
-         &lt;tag&gt; corpo da tag &lt;/tag&gt;, essa é a estrutura mais básica de uma tag, sendo que uma tag pode ser qualquer instrução. <br>
-        <br>
-        A tag também pode ser no formato self-close, ou seja, ela se fecha sozinha sem nenhum &lt;/tag&gt; para indicar que foi finalizada, por exemplo: <br>
-        &lt;tag /&gt;, isso se chama tag de self-closing, neste formato os navegadores identificarão que ela está automaticamente fechada, mesmo sem um sinal direto de fechamento como &lt;/tag&gt;<br><br>
-
-        Uma tag também pode ter atributos ou variáveis, como por exemplo:
-        &lt;tag atributo="valor" /&gt;, ou ela pode ter múltiplos atributos como, por exemplo:
-        &lt;tag atributo1="valor1" /&gt; <br>
-        &lt;tag atributo2="valor2" /&gt; <br>
-        &lt;tag atributo3="valor3" /&gt; <br>
-
-        <br>Outra forma também de escrever uma tag é: <br>
-        &lt;tag atributo1="v1" atributo2="v2"&gt; <br>
-          &nbsp; &nbsp; Corpus da Tag, ou seja, textos e outras variáveis etc. <br>
-        &lt;/tag&gt; <br>
-
-        <br>As janelas a seguir são geradas diretamente pela sintaxe e pré-definidas: <br>
-        &lt;input type="color"&gt; <input type="color"><br>
-        &lt;input type="date"&gt; <input type="date"><br>
-        &lt;input type="checkbox"&gt; <input type="checkbox"><br>
-        &lt;input type="email"&gt; <input type="email" placeholder="joao@email.com.br"> <br>
-        &lt;input type="password"&gt; <input type="password" placeholder="essaEumaSenha"><br>
-
-        <br>Tags aninhadas, ou seja, um conjunto de tags que contém tags, em uma hierarquia, por exemplo: <br>
-        Esse trecho contém a tag de lista.<br>
-        &lt;ul&gt;<ul>  
-            &lt; li&gt;
-            <li>
-            &nbsp;&nbsp;   Sublista1. Algum texto dentro no corpus.
-            </li>
-            &lt; li&gt;
-            <li>
-            &nbsp;&nbsp;    Sublista2. Algum outro texto dentro no corpus.
-            </li>
-            &lt; li&gt;
-        </ul> &lt;ul&gt;
-     
-    Notamos que uma tag está dentro de outra tag, um elemento dentro de um elemento.
-    
-    </h4>
+        <h1 style="text-align: center;">Entendendo as Tags HTML e sua Estrutura</h1>
+        <h4>
+            Neste guia, abordaremos o funcionamento, significado e aplicações de tags HTML e como elas compõem a estrutura de documentos web. Vamos começar com a anatomia básica de uma tag HTML:
+            <br>
+            <code>&lt;tag&gt;Conteúdo da tag&lt;/tag&gt;</code> - Essa é a forma mais básica de uma tag, onde "tag" representa o tipo de elemento e o conteúdo entre as tags é o que será exibido no navegador.
+            <br><br>
+            Tags também podem ser auto-fecháveis, o que significa que não necessitam de uma tag de fechamento. Por exemplo:
+            <br>
+            <code>&lt;tag /&gt;</code> - Conhecidas como tags auto-fecháveis, são interpretadas pelos navegadores como completas em si mesmas.
+            <br><br>
+            Além disso, uma tag pode conter atributos que definem suas propriedades ou comportamento, como por exemplo:
+            <br>
+            <code>&lt;tag atributo="valor"&gt;</code> - Neste exemplo, a tag possui um atributo chamado "atributo" com o valor "valor".
+            <br>
+            Uma tag pode incluir múltiplos atributos:
+            <br>
+            <code>&lt;tag atributo1="valor1" atributo2="valor2" atributo3="valor3"&gt;</code>
+            <br><br>
+            É possível também especificar atributos e conteúdo dentro de uma mesma tag:
+            <br>
+            <code>&lt;tag atributo1="valor1" atributo2="valor2"&gt;Conteúdo da tag&lt;/tag&gt;</code>
+            <br><br>
+            Algumas tags geram elementos interativos diretamente, como:
+            <br>
+            <code>&lt;input type="color"&gt;</code> <input type="color">
+            <br>
+            <code>&lt;input type="date"&gt;</code> <input type="date">
+            <br>
+            <code>&lt;input type="checkbox"&gt;</code> <input type="checkbox">
+            <br>
+            <code>&lt;input type="email" placeholder="joao@email.com.br"&gt;</code> <input type="email" placeholder="joao@email.com.br">
+            <br>
+            <code>&lt;input type="password" placeholder="essaEumaSenha"&gt;</code> <input type="password" placeholder="essaEumaSenha">
+            <br><br>
+            Tags podem ser aninhadas, criando uma hierarquia de elementos, como no exemplo a seguir com listas:
+            <br>
+            <code>&lt;ul&gt;
+                &lt;li&gt;Sublista1. Algum texto.&lt;/li&gt;
+                &lt;li&gt;Sublista2. Mais algum texto.&lt;/li&gt;
+            &lt;/ul&gt;</code>
+            <br>
+            Cada tag <code>&lt;li&gt;</code> dentro do <code>&lt;ul&gt;</code> representa um item da lista, demonstrando como as tags podem conter outras tags, formando uma estrutura de elementos aninhados.
+        </h4>
     </div>
 </body>
 </html>
