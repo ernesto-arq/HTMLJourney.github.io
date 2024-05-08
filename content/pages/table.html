@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução às Tabelas em HTML</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Tabelas em HTML</h1>
+    <div>
+        <p>As tabelas são uma ferramenta essencial no desenvolvimento web, utilizadas para organizar e apresentar informações de forma estruturada e acessível. No contexto do HTML, tabelas são amplamente empregadas para exibir dados em formato de grade, como listas, comparações e cronogramas. Essencialmente, elas ajudam a transformar dados brutos em uma visualização que facilita a compreensão e a análise.  Tabelas em HTML são fundamentais para estruturar informações complexas de maneira clara e ordenada, facilitando a leitura e a compreensão dos dados através de uma apresentação visual organizada em linhas e colunas.</p>
+
+
+        <p>Além de organizar visualmente os dados, as tabelas HTML oferecem recursos para ajustar o design e a acessibilidade, incluindo a capacidade de mesclar células, customizar estilos e garantir que a informação seja acessível a todos os usuários, incluindo aqueles que utilizam tecnologias assistivas.</p>
+
+        <h4>A seguir detalhamos a forma e o processo de criação de uma tabela:</h4>
+        
+        <p>A tabela é delimitada pela tag <code>&lt;table&gt;</code>, seguida das tags <code>&lt;tr&gt;</code> que representam as linhas, <code>&lt;th&gt;</code> que são os cabeçalhos das colunas, e <code>&lt;td&gt;</code> que contêm os dados propriamente ditos. Veja o exemplo abaixo:</p> 
+        
+        <p><code>&lt;table&gt;<br>
+           &nbsp; &lt;tr&gt;<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Nome&lt;/th&gt;<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Endereço&lt;/th&gt;<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Cidade&lt;/th&gt;<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Estado&lt;/th&gt;<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;CEP&lt;/th&gt;<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+           &nbsp;&nbsp;&lt;tr&gt;<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;João&lt;/td&gt;<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Rua das Flores&lt;/td&gt;<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;São Paulo&lt;/td&gt;<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;São Paulo&lt;/td&gt;<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;01000-000&lt;/td&gt;<br>
+           &nbsp; &nbsp;&lt;/tr&gt;<br>
+           &nbsp; &nbsp;&lt;tr&gt;<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Pedro&lt;/td&gt;<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Rua das Rosas&lt;/td&gt;<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Fortaleza&lt;/td&gt;<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Ceará&lt;/td&gt;<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;60000-000&lt;/td&gt;<br>
+           &lt;/tr&gt;<br>
+        &lt;/table&gt;</code></p><br>
+
+        <table style="width: 100%;">
+            <tr>
+                <th>Nome</th>
+                <th>Endereço</th>
+                <th>Cidade</th>
+                <th>Estado</th>
+                <th>CEP</th>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>Rua das Flores</td>
+                <td>São Paulo</td>
+                <td>São Paulo</td>
+                <td>01000-000</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>Rua das Rosas</td>
+                <td>Fortaleza</td>
+                <td>Ceará</td>
+                <td>60000-000</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>        
+    </div>
+</body>
+</html>
