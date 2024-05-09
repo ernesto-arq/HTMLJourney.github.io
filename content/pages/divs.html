@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header {
+            background-color: #d30808;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        #main {
+            background-color: #4152f0c7;
+            padding: 20px;
+            margin-top: 10px;
+        }
+        #footer {
+            background-color: #83abd3;
+            padding: 10px;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <h1 style="text-align: center;">Aplicações da div em HTML</h1>
+        A tag <code>&lt;div&gt;</code> em HTML é um elemento de bloco usado para agrupar outros elementos HTML e aplicar estilos ou scripts a esses elementos como um único bloco. É frequentemente usada como um "container" para outros conteúdos, pois não tem significado semântico específico. A <code>&lt;div&gt;</code> é muito útil para organizar a estrutura de uma página, permitindo um controle mais flexível do layout por meio de CSS.
+    </div>
+    
+    <h4>O Código a seguir é colocado dentro da head do corpo em HTML e apresentará uma formatação específica para cada div dentro da página:</h4>
+    <pre>
+        &lt;style&gt;
+            #header {
+                background-color: #d30808;
+                padding: 20px;
+                text-align: center;
+                font-size: 24px;
+            }
+            #main {
+                background-color: #e9ecef;
+                padding: 20px;
+                margin-top: 10px;
+            }
+            #footer {
+                background-color: #dee2e6;
+                padding: 10px;
+                text-align: center;
+                margin-top: 10px;
+            }
+        &lt;/style&gt;
+        
+        &lt;div id="header"&gt;Jornal de Notícias ABC&lt;/div&gt;
+        &lt;div id="main"&gt;
+            &lt;div&gt;Notícias&lt;/div&gt;
+            &lt;div&gt;Essas foram as notícias de hoje! Por Fulano de Tal. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae sapiente repellendus in 
+            animi blanditiis, expedita praesentium possimus iusto, adipisci iste totam optio quibusdam aliquid minus harum debitis voluptate fuga doloremque! &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div id="footer"&gt;Essas foram as notícias de hoje! Por Fulano de Tal.&lt;/div&gt;
+        </pre>
+        
+    <h4>A seguir podemos observar os formatos e estilos criados com base no código a seguir:</h4>
+    
+    <div id="header">Jornal de Notícias ABC</div>
+    <div id="main">
+        <div>Notícias</div>
+        <div>Essas foram as notícias de hoje! Por Fulano de Tal. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae sapiente repellendus in animi blanditiis, 
+            expedita praesentium possimus iusto, adipisci iste totam optio quibusdam aliquid minus harum debitis voluptate fuga doloremque!</div>
+    </div>
+    <div id="footer">Essas foram as notícias de hoje! Por Fulano de Tal.</div>
+    <br><br><br>
+</body>
+</html>
