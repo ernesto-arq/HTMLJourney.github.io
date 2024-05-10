@@ -1,0 +1,39 @@
+body {
+    background-color: rgba(55, 86, 224, 0.897); /*
+    margin: 0; /* Remove qualquer margem padrão do navegador */
+    height: 100%; /* Garante que o body cubra toda a altura da viewport, se necessário */
+}
+
+h1, h2, h3, h4, p {
+    color: navy; /* Cor do texto para cabeçalhos e parágrafos */
+    font-family: Arial, Helvetica, sans-serif; /* Fonte uniforme para texto */
+    text-align: center; /* Centraliza todo o texto dos cabeçalhos e parágrafos */
+}
+
+p {
+    font-size: 16px; /* Tamanho padrão do texto para parágrafos */
+    color: #000;
+}
+
+.div-corpusLayout {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens filhos horizontalmente */
+    justify-content: center; /* Centraliza os itens filhos verticalmente */
+    height: 100%; /* Ajusta a altura para cobrir 100% da altura do seu contêiner */
+    background-color: lightblue; /* Cor de fundo para visualização */
+    background-color: rgb(143, 194, 211); /* Cor de fundo para visualização */
+    width: 75%; /* Largura ajustada para 75% da largura do contêiner pai */
+    margin: 0 auto; /* Remove margens grandes e centraliza a div no meio horizontalmente */
+}
+
+.div-pgPrincipal {
+    background-color: #fff; /* Fundo branco para as divs filhas */
+    margin: 10px; /* Margem para separar as divs filhas umas das outras */
+    padding: 20px; /* Espaçamento interno para conteúdo */
+    border: 2px solid #000; /* Borda sólida para visualização */
+    border-radius: 10px; /* Bordas arredondadas para estética */
+    width: 50%; /* Largura das divs filhas ajustada para 50% do seu contêiner */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para efeito de elevação */
+    text-align: left; /* Alinhamento de texto para esquerda */
+}
